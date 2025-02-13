@@ -4,7 +4,7 @@
 
 	<groupId>aa2e9f8f-c437-479b-a9c4-0b69d8ef494a</groupId>
 	<artifactId>github-action-e</artifactId>
-	<version>1.0.2</version>
+	<version>1.0.3</version>
 	<packaging>mule-application</packaging>
 
 	<name>github-action-e</name>
@@ -14,11 +14,8 @@
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 		<app.runtime>4.8.0</app.runtime>
 		<mule.maven.plugin.version>4.3.0</mule.maven.plugin.version>
-		<app.name>github-action-e</app.name>
+		<app.name>github-actions</app.name>
 		<env>Sandbox</env>
-		<releaseChannel>Edge</releaseChannel>
-		<region>Cloudhub-US-East-2</region>
-		<serverId>Repository</serverId>
 	</properties>
 
 	<build>
@@ -34,8 +31,8 @@
 				<version>${mule.maven.plugin.version}</version>
 				<extensions>true</extensions>
 				<configuration>
-					<classifier>mule-application</classifier>
-					<cloudHub2Deployment>
+					<classifier>---- select project type ----</classifier>
+					<cloudhub2Deployment>
 						<uri>https://anypoint.mulesoft.com</uri>
 						<provider>MC</provider>
 						<environment>Sandbox</environment>
@@ -48,7 +45,7 @@
 						<deploymentSettings>
 							<generateDefaultPublicUrl>true</generateDefaultPublicUrl>
 						</deploymentSettings>
-					</cloudHub2Deployment>
+					</cloudhub2Deployment>
 				</configuration>
 			</plugin>
 		</plugins>
