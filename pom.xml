@@ -4,7 +4,7 @@
 
 	<groupId>aa2e9f8f-c437-479b-a9c4-0b69d8ef494a</groupId>
 	<artifactId>github-action-e</artifactId>
-	<version>1.0.3</version>
+	<version>1.0.4</version>
 	<packaging>mule-application</packaging>
 
 	<name>github-action-e</name>
@@ -103,7 +103,7 @@
 		<repository>
 			<id>Repository</id>
 			<name>Corporate Repository</name>
-			<url>https://maven.anypoint.mulesoft.com/api/v3/organizations/${project.groupId}/maven</url>
+			<url>https://maven.anypoint.mulesoft.com/api/v3/organizations/aa2e9f8f-c437-479b-a9c4-0b69d8ef494a/maven</url>
 			<layout>default</layout>
 		</repository>
 	</distributionManagement>
